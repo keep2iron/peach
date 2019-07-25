@@ -1,4 +1,4 @@
-package io.github.keep2iron.drawable_box
+package io.github.keep2iron.peach
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
