@@ -4,6 +4,6 @@ import android.graphics.drawable.Drawable
 
 interface BuildCreator<T : Drawable> {
 
-    fun build(): T
+  fun build(): T
 
 }
