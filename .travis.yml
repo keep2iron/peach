@@ -7,7 +7,7 @@ android:
     - build-tools-29.0.0
     - android-28
     - extra-android-m2repository
-
+    -
 jdk:
   - oraclejdk8
 
@@ -17,4 +17,3 @@ notifications:
 script:
   - chmod +x gradlew
   - ./gradlew assemble check
-#  - ./gradlew checkstyle

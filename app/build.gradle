@@ -2,7 +2,8 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 android {
-    compileSdkVersion 28
+    compileSdkVersion versions.build.target_sdk
+    buildToolsVersion versions.build.build_tools
 
     defaultConfig {
         applicationId "io.github.keep2iron.app"
