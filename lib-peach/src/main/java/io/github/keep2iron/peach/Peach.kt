@@ -13,6 +13,7 @@ import io.github.keep2iron.peach.creator.RotateAbstractCreator
 import io.github.keep2iron.peach.creator.ScaleAbstractCreator
 import io.github.keep2iron.peach.creator.StateListAbstractCreator
 import io.github.keep2iron.peach.drawable.FlipDrawable
+import io.github.keep2iron.peach.drawable.WrapperGradientDrawable
 import java.util.TreeMap
 import java.util.concurrent.atomic.AtomicInteger
 
@@ -247,7 +248,7 @@ class Peach : AbstractCreator {
         .normal(buildNormalDrawable())
         .build()
     } else {
-      drawable = GradientDrawable()
+      drawable = WrapperGradientDrawable()
       setupGradientDrawable(drawable)
     }
     drawable = wrap(drawable)

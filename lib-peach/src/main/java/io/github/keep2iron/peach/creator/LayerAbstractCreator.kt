@@ -149,7 +149,7 @@ class LayerAbstractCreator : BuildCreator<LayerDrawable> {
     build()
   }
 
-  internal class Layer(var drawable: Drawable) {
+  class Layer(var drawable: Drawable) {
     var gravity: Int = Gravity.NO_GRAVITY
     var width: Int = -1
     var height: Int = -1

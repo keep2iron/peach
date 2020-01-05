@@ -38,9 +38,9 @@ fun setInnerRadius(drawable: GradientDrawable, value: Int) {
     val innerRadius = resolveField(gradientState, "mInnerRadius")
     innerRadius.setInt(drawable.constantState, value)
   } catch (e: NoSuchFieldException) {
-    e.printStackTrace()
+//    e.printStackTrace()
   } catch (e: IllegalAccessException) {
-    e.printStackTrace()
+//    e.printStackTrace()
   }
 }
 
@@ -49,9 +49,9 @@ fun setInnerRadiusRatio(drawable: GradientDrawable, value: Float) {
     val innerRadius = resolveField(gradientState, "mInnerRadiusRatio")
     innerRadius.setFloat(drawable.constantState, value)
   } catch (e: NoSuchFieldException) {
-    e.printStackTrace()
+//    e.printStackTrace()
   } catch (e: IllegalAccessException) {
-    e.printStackTrace()
+//    e.printStackTrace()
   }
 }
 
@@ -71,9 +71,9 @@ fun setThicknessRatio(drawable: GradientDrawable, value: Float) {
     val innerRadius = resolveField(gradientState, "mThicknessRatio")
     innerRadius.setFloat(drawable.constantState, value)
   } catch (e: NoSuchFieldException) {
-    e.printStackTrace()
+//    e.printStackTrace()
   } catch (e: IllegalAccessException) {
-    e.printStackTrace()
+//    e.printStackTrace()
   }
 }
 
@@ -82,9 +82,9 @@ fun setUseLevelForShape(drawable: GradientDrawable, value: Boolean) {
     val useLevelForShape = resolveField(gradientState, "mUseLevelForShape")
     useLevelForShape.setBoolean(drawable.constantState, value)
   } catch (e: NoSuchFieldException) {
-    e.printStackTrace()
+//    e.printStackTrace()
   } catch (e: IllegalAccessException) {
-    e.printStackTrace()
+//    e.printStackTrace()
   }
 }
 
@@ -99,9 +99,9 @@ fun setOrientation(drawable: GradientDrawable, value: GradientDrawable.Orientati
       rectIdDirty.setBoolean(drawable, true)
       drawable.invalidateSelf()
     } catch (e: NoSuchFieldException) {
-      e.printStackTrace()
+//      e.printStackTrace()
     } catch (e: IllegalAccessException) {
-      e.printStackTrace()
+//      e.printStackTrace()
     }
   }
 }
@@ -115,9 +115,9 @@ fun setColors(drawable: GradientDrawable, value: IntArray) {
       colors.set(drawable.constantState, value)
       drawable.invalidateSelf()
     } catch (e: NoSuchFieldException) {
-      e.printStackTrace()
+//      e.printStackTrace()
     } catch (e: IllegalAccessException) {
-      e.printStackTrace()
+//      e.printStackTrace()
     }
   }
 }
@@ -127,9 +127,9 @@ fun setGradientRadiusType(drawable: GradientDrawable, value: Int) {
     val type = resolveField(gradientState, "mGradientRadiusType")
     type.setInt(drawable.constantState, value)
   } catch (e: NoSuchFieldException) {
-    e.printStackTrace()
+//    e.printStackTrace()
   } catch (e: IllegalAccessException) {
-    e.printStackTrace()
+//    e.printStackTrace()
   }
 }
 
@@ -138,9 +138,9 @@ fun setGradientRadius(drawable: GradientDrawable, value: Float) {
     val gradientRadius = resolveField(gradientState, "mGradientRadius")
     gradientRadius.setFloat(drawable.constantState, value)
   } catch (e: NoSuchFieldException) {
-    e.printStackTrace()
+//    e.printStackTrace()
   } catch (e: IllegalAccessException) {
-    e.printStackTrace()
+//    e.printStackTrace()
   }
 }
 
@@ -149,8 +149,8 @@ fun setStrokeColor(drawable: GradientDrawable, value: Int) {
     val type = resolveField(gradientState, "mStrokeColor")
     type.setInt(drawable.constantState, value)
   } catch (e: NoSuchFieldException) {
-    e.printStackTrace()
+//    e.printStackTrace()
   } catch (e: IllegalAccessException) {
-    e.printStackTrace()
+//    e.printStackTrace()
   }
 }
