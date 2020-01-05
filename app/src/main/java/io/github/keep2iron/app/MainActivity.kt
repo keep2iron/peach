@@ -5,13 +5,9 @@ import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
 import android.text.Spannable
 import android.text.SpannableString
-import android.text.style.BackgroundColorSpan
-import android.text.style.DynamicDrawableSpan
 import android.text.style.ImageSpan
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
-import io.github.keep2iron.peach.DrawableCreator
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     draw.setColor(Color.parseColor("#FFCCCCCC"))
     draw.shape = GradientDrawable.RECTANGLE
 //    ImageSpan(
-//      DrawableCreator()
+//      Peach()
 //        .rectangle().complete().solidColor(Color.parseColor("#FFCCCCCC")).complete()
 //        .build(), DynamicDrawableSpan.ALIGN_BASELINE
 //    )
@@ -37,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
 
     textView.text = spannedString
-//    textView.background = DrawableCreator()
+//    textView.background = Peach()
 //      .rectangle()
 //      .complete()
 //      .solidColor(ContextCompat.getColor(applicationContext, R.color.colorPrimary))

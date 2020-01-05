@@ -16,7 +16,7 @@ import io.github.keep2iron.peach.drawable.FlipDrawable
 import java.util.TreeMap
 import java.util.concurrent.atomic.AtomicInteger
 
-class DrawableCreator : AbstractCreator {
+class Peach : AbstractCreator {
   private var properties = DrawableProperties()
   private var order: AtomicInteger = AtomicInteger(1)
   private var transformsMap = TreeMap<Int, (Drawable) -> Drawable>()
